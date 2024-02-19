@@ -18,6 +18,7 @@ import {
   RiDribbbleFill,
   RiMediumFill,
   RiBehanceFill,
+  RiMailFill,
 } from "react-icons/ri"
 import { FaTiktok, FaWordpress, FaVk } from "react-icons/fa"
 
@@ -198,6 +199,13 @@ const HomePage = ({ data }) => {
         ) : (
           ""
         )}
+        {icons.icon === "email" ? (
+          <a href={icons.url} target="_blank" aria-label="link to email" rel="noopener noreferrer">
+            <RiMailFill alt="email icon" />
+          </a>
+        ) : (
+          ""
+        )}
       </div>
     )
   })
@@ -252,7 +260,11 @@ const HomePage = ({ data }) => {
           )}
         </div>
       </div>
-      <BlogListHome data={posts} />
+      <BlogListHome data={posts} style={{margin: 0, padding: 0}}/>
+      <h2 style={{margin: 0, padding: 0}}>Site Visitors</h2>
+      <p><center>  
+      <a href='https://mapmyvisitors.com/web/1bvtk'  title='Visit tracker'><img src='https://mapmyvisitors.com/map.png?cl=0e1633&w=400&t=tt&d=2-ZuJhrKfPYHZw9ol5mbHOeQRh8ZqvYxhmdkBebHjbY&co=0b4975&ct=cdd4d9' style={{maxWidth: "75%", width: "450px"}}/></a>
+      </center></p>
     </Layout>
   )
 }

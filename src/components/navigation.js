@@ -18,10 +18,14 @@ const MenuItems = [
     path: "/blog",
     title: "Blog",
   },
+  //{
+  //  path: "/contact",
+  //  title: "Contact",
+  //},
   {
-    path: "/contact",
-    title: "Contact",
-  },
+    path: "http://hzempire.github.io/files/Haozhou2023.pdf",
+    title: "Resume",
+  }
 ]
 
 const ListLink = props => (

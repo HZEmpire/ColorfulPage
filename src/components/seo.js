@@ -61,6 +61,14 @@ const SEO = ({ title, description, image, article }) => {
       )}
 
       {seo.image && <meta name="twitter:image" content={seo.image} />}
+      <link rel="manifest" href="https://hzempire.github.io/images/manifest.json?v=M44lzPylqQ" />
+      <link rel="mask-icon" href="https://hzempire.github.io/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#5bbad5" />
+      <link rel="shortcut icon" type="image/png" href="https://hzempire.github.io/images/favicon-32x32.png?v=M44lzPylqQ" />
+      <link rel="shortcut icon" type="image/png" href="https://hzempire.github.io/images/favicon-16x16.png?v=M44lzPylqQ" />
+      <link rel="shortcut icon" href="https://hzempire.github.io/images/favicon.ico?v=M44lzPylqQ" type="image/x-icon" />
+      <meta name="msapplication-TileColor" content="#da532c" />
+      <meta name="msapplication-TileImage" content="https://hzempire.github.io/images/site-144x144.png?v=M44lzPylqQ"/>
+      <meta name="msapplication-config" content="https://hzempire.github.io/images/browserconfig.xml?v=M44lzPylqQ"/> 
     </Helmet>
   )
 }

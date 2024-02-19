@@ -1,12 +1,12 @@
 {
   "meta": {
-    "title": "Foundation",
+    "title": "Haozhou Xu - Homepage",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
-    "siteUrl": "https://foundation.stackrole.com",
-    "image": "/assets/stackrole.png",
-    "iconimage": "/assets/stackrole.png",
-    "twitterUsername": "@stackrole"
+    "description": "The Personal Website of Haozhou Xu",
+    "siteUrl": "https://github.hzempire.io",
+    "image": "/assets/android-chrome-512x512.png",
+    "iconimage": "/assets/android-chrome-512x512.png",
+    "twitterUsername": "@Haozhou"
   },
   "ga": "UA-XXXXXXXXX-X"
 }
